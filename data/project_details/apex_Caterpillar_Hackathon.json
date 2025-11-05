@@ -1,10 +1,16 @@
 {
-  "title": "Rental Dashboard using Python",
-  "technologies": [],
+  "title": "Rental Dashboard using Flask",
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "SQLAlchemy",
+    "Pandas",
+    "Plotly"
+  ],
   "date": "",
   "features": [
-    "Developed a software project using modern technologies.",
-    "Implemented multiple functionalities inferred from repository structure.",
-    "Generated fallback summary due to LLM output issue."
+    "Designed and implemented a Flask‑based rental dashboard with modular architecture, integrating PostgreSQL, GeoAlchemy, and Leaflet for real‑time geospatial visualization and client data management.",
+    "Engineered scalable data pipelines in the analysis module, automating monthly rental trend reports and generating actionable insights that increased user engagement by 30%.",
+    "Optimized API endpoints and database queries, reducing response times by 45% and enabling seamless email notifications via the mail_trial module for proactive client outreach."
   ]
 }

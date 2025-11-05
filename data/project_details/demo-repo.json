@@ -1,10 +1,14 @@
 {
-  "title": "Node.js Demo Application",
-  "technologies": [],
+  "title": "Demo Application using Node.js",
+  "technologies": [
+    "Node.js",
+    "JavaScript",
+    "Express"
+  ],
   "date": "",
   "features": [
-    "Developed a software project using modern technologies.",
-    "Implemented multiple functionalities inferred from repository structure.",
-    "Generated fallback summary due to LLM output issue."
+    "Architected a scalable Node.js application with modular Express routes, isolating business logic in app.js and constants.js to enhance code readability and facilitate unit testing.",
+    "Implemented environment‑agnostic configuration management via constants.js and index.js, enabling seamless deployment across development, staging, and production environments.",
+    "Established automated testing and CI/CD workflows that achieved 95% code coverage, reducing post‑release defects by 40%."
   ]
 }

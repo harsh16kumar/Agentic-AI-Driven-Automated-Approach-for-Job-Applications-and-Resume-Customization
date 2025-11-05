@@ -62,7 +62,7 @@ def get_random_llm():
     # Initialize the LLM client with the selected key
     llm = ChatGroq(
         api_key= api_key,
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         temperature=0.7
     )
     return llm

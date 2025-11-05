@@ -20,15 +20,12 @@ def get_random_llm():
     # Initialize the LLM client with the selected key
     llm = ChatGroq(
         api_key= api_key,
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-20b",
         temperature=0.7
     )
     return llm
 
 
-
-# Choose your LLM
-# llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 PROJECT_DETAILS_DIR = os.path.join("data", "project_details")
 os.makedirs(PROJECT_DETAILS_DIR, exist_ok=True)
@@ -178,12 +175,8 @@ def generate_project_features(title, techs, readme, files, role, llm):
 # -------------------------------------------------------------
 def summarize_project(repo,role, llm=None):
     llm = get_random_llm()
-    """
-    Orchestrates title, tech extraction, and feature generation for GitHub repos.
-    Produces an ATS-ready project summary JSON.
-    """
     if llm is None:
-        from backend.app.services.llm_service import llm  # import global LLM
+        from backend.app.services.llm_service import llm
 
     repo_name = repo.get("repository") or repo.get("repo") or repo.get("name") or "UnnamedRepo"
     readme = repo.get("readme", "")

@@ -47,3 +47,7 @@ build/
 *.egg-info/
 
 resume-agent/
+
+data/
+
+github_fetch_debug.py

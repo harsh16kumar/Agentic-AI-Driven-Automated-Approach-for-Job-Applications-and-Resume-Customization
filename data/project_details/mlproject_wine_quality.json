@@ -1,10 +1,16 @@
 {
-  "title": "Wine Quality Predictor using MLOps",
-  "technologies": [],
+  "title": "Wine Quality Prediction using MLOps",
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "scikit-learn",
+    "xgboost",
+    "MLflow"
+  ],
   "date": "",
   "features": [
-    "Developed a software project using modern technologies.",
-    "Implemented multiple functionalities inferred from repository structure.",
-    "Generated fallback summary due to LLM output issue."
+    "Designed and deployed a reproducible MLOps pipeline for wine quality prediction, orchestrating data ingestion, validation, transformation, and model training with Python, Pandas, and XGBoost, and automating artifact management via MLflow.",
+    "Implemented end‑to‑end CI/CD using GitHub Actions, Docker, and pytest, ensuring 100% code quality and seamless model versioning for production deployment through FastAPI and Uvicorn.",
+    "Applied feature engineering and hyperparameter tuning to boost model accuracy over baseline, visualized key insights with Matplotlib/Seaborn, and maintained rigorous logging and monitoring for continuous improvement."
   ]
 }
