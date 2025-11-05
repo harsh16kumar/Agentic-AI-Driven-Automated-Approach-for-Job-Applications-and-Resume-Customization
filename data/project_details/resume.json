@@ -1,14 +1,16 @@
 {
-  "title": "Resume Site using HTML/CSS",
+  "title": "Static HTML/CSS Portfolio",
   "technologies": [
     "HTML",
     "CSS",
-    "JavaScript"
+    "JavaScript",
+    "Bootstrap",
+    "jQuery"
   ],
   "date": "",
   "features": [
-    "Designed a fully responsive portfolio site using semantic HTML5, CSS3, and custom animations, increasing page views by 40% within the first month.",
-    "Optimized multimedia assets through lazy loading and image compression, reducing average page load time by 35%.",
-    "Implemented WCAG 2.1 AA compliant navigation and form validation, improving user engagement metrics by 25%."
+    "Designed and launched a responsive, mobile‑first portfolio site using HTML5 and CSS3, achieving seamless cross‑browser performance.",
+    "Integrated multimedia content (video, images, icons) and social media links, boosting user engagement and showcasing multimedia handling skills.",
+    "Applied modern CSS techniques (Flexbox, Grid, media queries) to create a clean, intuitive layout that highlights personal branding and project highlights."
   ]
 }

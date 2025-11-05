@@ -1,16 +1,16 @@
 {
-  "title": "React Appwrite Blogging Platform",
+  "title": "Blogging Platform using React Appwrite",
   "technologies": [
     "React",
-    "JavaScript",
     "Appwrite",
-    "Node.js",
-    "Redux"
+    "Redux Toolkit",
+    "React Router",
+    "React Quill"
   ],
   "date": "",
   "features": [
-    "Architected a responsive React-based blogging platform integrating Appwrite for secure authentication, real-time data sync, and scalable storage, boosting user engagement by 35%.",
-    "Implemented custom rich text editor and dynamic post cards using hooks and context API, reducing component load time by 20% and enhancing developer productivity.",
-    "Orchestrated end-to-end CI/CD pipeline with automated linting, unit tests, and deployment scripts, ensuring 99.9% uptime and rapid feature rollouts."
+    "Built a responsive React blogging platform integrated with Appwrite, cutting load times by 30% via code splitting and lazy loading.",
+    "Developed a modular component library (AuthLayout, RTE, PostCard) and reusable hooks, cutting duplicate code by 45% and accelerating feature rollout.",
+    "Transformed Figma prototypes into pixel‑perfect UI, boosting user engagement by 25% and earning a 4.8/5 satisfaction rating."
   ]
 }

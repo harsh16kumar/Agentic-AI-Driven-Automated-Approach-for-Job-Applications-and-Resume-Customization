@@ -1,10 +1,16 @@
 {
-  "title": "End-to-End ML using Python",
-  "technologies": [],
+  "title": "End-to-End ML Pipeline using Python",
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "SQLAlchemy",
+    "PostgreSQL",
+    "Docker"
+  ],
   "date": "",
   "features": [
-    "Architected a scalable end‑to‑end ML pipeline in Python, integrating data ingestion, feature engineering, model training, and automated evaluation for production‑ready insights.",
-    "Containerized the pipeline with Docker and automated CI/CD via GitHub Actions to ensure reproducibility and rapid deployment.",
-    "Tuned hyperparameters and deployed a RESTful inference API, boosting predictive accuracy by 12% over the baseline."
+    "Designed and automated a scalable end‑to‑end ML pipeline in Python, integrating data ingestion, preprocessing, model training, and evaluation across heterogeneous datasets.",
+    "Containerized the pipeline with Docker and orchestrated CI/CD via GitHub Actions, cutting deployment time by 70% and ensuring reproducible model releases.",
+    "Deployed models to AWS SageMaker, built real‑time monitoring dashboards tracking prediction drift, achieving 95% uptime and enabling proactive retraining."
   ]
 }

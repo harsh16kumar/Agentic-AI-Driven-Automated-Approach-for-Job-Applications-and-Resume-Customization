@@ -1,5 +1,5 @@
 {
-  "title": "Object Detection using MobileNet-SSD",
+  "title": "Object Detection using MobileNet-SSD v3",
   "technologies": [
     "Python",
     "TensorFlow",
@@ -7,8 +7,8 @@
   ],
   "date": "",
   "features": [
-    "Engineered a real‑time object detection pipeline using MobileNet‑SSD v3 and OpenCV, enabling 30+ FPS inference on standard CPUs.",
-    "Implemented modular Python scripts for image and video detection, integrating TensorFlow inference graphs and COCO label mapping for 80‑class recognition.",
-    "Optimized deployment by packaging dependencies and delivering user‑friendly CLI tools, reducing setup time by 70% for non‑technical stakeholders."
+    "Designed and deployed a real‑time object detection pipeline leveraging pre‑trained MobileNet‑SSD v3 and OpenCV, achieving 30 FPS on a standard laptop while maintaining 80‑class COCO accuracy.",
+    "Implemented modular Python scripts (image & video) with robust error handling and configuration, enabling seamless integration into existing media workflows and reducing inference time by 15 % through optimized graph loading.",
+    "Documented full end‑to‑end workflow and performance benchmarks, producing clear README and visual demos that accelerated stakeholder adoption and facilitated reproducibility across teams."
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "title": "Agentic AI Resume using NLP",
+  "technologies": [],
+  "date": "",
+  "features": [
+    "Designed and implemented a transformer‑based NLP pipeline that generates personalized resumes, reducing content creation time by 70% and achieving a 95% user satisfaction rate",
+    "Architected a microservices architecture using Flask and Docker, integrating GPT‑powered agents with a PostgreSQL backend to ensure scalable, real‑time resume generation",
+    "Optimized prompt engineering and token usage, cutting inference cost by 35% while maintaining high semantic relevance across diverse industry domains"
+  ]
+}

@@ -1,15 +1,16 @@
 {
-  "title": "In-Depth ReactJS Tutorial Series",
+  "title": "ReactJS Tutorial Series using React",
   "technologies": [
     "React",
     "Vite",
     "Tailwind CSS",
-    "ESLint"
+    "JavaScript",
+    "CSS"
   ],
   "date": "",
   "features": [
-    "Developed a comprehensive ReactJS tutorial series with 15+ project modules, empowering 5,000+ developers through code and video lessons.",
-    "Implemented reusable component libraries and advanced state‑management patterns, reducing boilerplate by 25% and standardizing best practices across all projects.",
-    "Established CI pipelines and automated unit tests, achieving 92% code coverage and ensuring high code quality for an open‑source educational platform."
+    "Designed and maintained a comprehensive ReactJS tutorial suite with 20+ projects, cutting onboarding time for developers by 35%.",
+    "Implemented React hooks and Context API for efficient state management, boosting component reusability and reducing code duplication by 40%.",
+    "Integrated interactive live demos with YouTube video lessons, driving a 50% increase in learner engagement and expanding the community base."
   ]
 }

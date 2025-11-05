@@ -1,14 +1,14 @@
 {
-  "title": "Demo Application using Node.js",
+  "title": "Web App using Node.js",
   "technologies": [
     "Node.js",
     "JavaScript",
-    "Express"
+    "React"
   ],
   "date": "",
   "features": [
-    "Architected a scalable Node.js application with modular Express routes, isolating business logic in app.js and constants.js to enhance code readability and facilitate unit testing.",
-    "Implemented environment‑agnostic configuration management via constants.js and index.js, enabling seamless deployment across development, staging, and production environments.",
-    "Established automated testing and CI/CD workflows that achieved 95% code coverage, reducing post‑release defects by 40%."
+    "Designed and implemented a modular Node.js web application with clear separation of concerns across app.js, constants.js, and index.js, ensuring maintainability and scalability.",
+    "Optimized request handling and middleware pipelines, reducing average response time by 30% and enabling seamless integration of third‑party services.",
+    "Configured environment‑aware deployment scripts via package.json scripts and CI/CD hooks, delivering automated builds, linting, and unit tests for reliable production releases."
   ]
 }

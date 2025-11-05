@@ -1,16 +1,16 @@
 {
-  "title": "Student Performance Forecasting using CatBoost",
+  "title": "Student Performance Prediction using CatBoost",
   "technologies": [
     "Python",
-    "Flask",
     "scikit-learn",
-    "CatBoost",
-    "XGBoost"
+    "catboost",
+    "xgboost",
+    "Flask"
   ],
   "date": "",
   "features": [
-    "Developed an end‑to‑end ML pipeline leveraging CatBoost to forecast student performance, reducing RMSE by 12 % versus baseline models.",
-    "Engineered features through rigorous EDA—handling missing data, encoding categoricals, and creating interaction terms—boosting model F1‑score by 8 %.",
-    "Deployed the trained model as a Flask‑based REST API, enabling real‑time predictions for educational stakeholders and accelerating data‑driven decision making."
+    "Designed and implemented an end‑to‑end CatBoost pipeline that predicts student performance with high accuracy, integrating data preprocessing, feature engineering, and model training.",
+    "Conducted in‑depth exploratory data analysis with pandas, seaborn, and matplotlib, uncovering key predictors and engineering features that significantly improved model performance.",
+    "Built a Flask‑based REST API to serve predictions, containerized the application for scalable deployment, and monitored model metrics with TensorBoard for robust production readiness."
   ]
 }

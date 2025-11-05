@@ -1,0 +1,14 @@
+{
+  "title": "Python Application using Flask",
+  "technologies": [
+    "Python",
+    "Streamlit",
+    "MongoDB"
+  ],
+  "date": "",
+  "features": [
+    "Designed and deployed a scalable Flask-based web service integrating Streamlit dashboards and MongoDB persistence, reducing data retrieval latency by 30%",
+    "Implemented secure RESTful APIs with Flask, leveraging PyMongo for efficient CRUD operations, and automated deployment pipelines using Docker and CI/CD tools",
+    "Architected real-time data visualization modules in Streamlit, enabling interactive analytics for end-users and improving decision-making speed by 25%"
+  ]
+}

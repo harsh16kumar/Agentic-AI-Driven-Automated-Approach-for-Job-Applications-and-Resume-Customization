@@ -3,14 +3,13 @@
   "technologies": [
     "Python",
     "Streamlit",
-    "Scikit-learn",
-    "Matplotlib",
-    "SciPy"
+    "scikit-learn",
+    "Docker"
   ],
   "date": "",
   "features": [
-    "Designed and deployed a Random Forest classifier that predicts product quality with 92% accuracy, leveraging StandardScaler for robust feature scaling.",
-    "Implemented a Z-score based anomaly detection pipeline that computes per-feature deviations, extracts the top 7 contributing features, and generates a weighted anomaly score (1–100%) to flag high‑risk batches.",
-    "Optimized model persistence and data flow by serializing the trained model, scaler, and statistics into pickle files, enabling seamless integration into production pipelines and real‑time anomaly reporting."
+    "Trained a Random Forest classifier on sensor data, achieving high predictive accuracy for product quality classification.",
+    "Engineered a Z‑score anomaly detection module that calculates per‑feature deviations, ranks top contributors, and produces a weighted anomaly score (1–100%) for real‑time outlier identification.",
+    "Built a Streamlit dashboard that deploys the model, scales features, visualizes predictions, anomaly scores, and top contributing features for interactive data exploration."
   ]
 }

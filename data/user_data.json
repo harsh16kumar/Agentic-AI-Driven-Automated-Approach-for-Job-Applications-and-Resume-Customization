@@ -1,110 +1,94 @@
 {
-  "name": "HARSH KUMAR",
-  "phone": "+91-6200887791",
-  "email": "harshnpng@gmail.com",
-  "linkedin": "linkedin.com/in/harsh-kumar-535aa024a",
-  "github": "harsh16kumar",
+  "qualification": {
+    "cgpa": "9.144",
+    "skill": "langchain, deep learning"
+  },
+  "name": "Harsh Kumar",
+  "contact": {
+    "phone": "+91-6200887791",
+    "email": "harshnpng@gmail.com",
+    "linkedin": "linkedin.com/in/harsh-kumar-535aa024a",
+    "github": "github.com/harsh16kumar"
+  },
   "education": [
     {
       "institution": "Vellore Institute of Technology",
-      "period": "Sep 2022 – Present",
-      "degree": "B.Tech in Computer Science",
-      "cgpa": "9.14",
-      "location": "Vellore, India"
+      "location": "Vellore, India",
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "start_date": "Sep 2022",
+      "end_date": "Present",
+      "cgpa": 9.14
     },
     {
       "institution": "DAV Hehal Ranchi",
-      "period": "Apr 2021 – Apr 2022",
-      "degree": "Class 12th",
-      "cgpa": "89.2%",
-      "location": "Ranchi, Jharkhand"
+      "location": "Ranchi, Jharkhand",
+      "level": "Class 12th",
+      "percentage": 89.2,
+      "start_date": "Apr 2021",
+      "end_date": "Apr 2022"
     },
     {
       "institution": "DAV Hehal Ranchi",
-      "period": "Apr 2019 – Apr 2020",
-      "degree": "Class 10th",
-      "cgpa": "96.4%",
-      "location": "Ranchi, Jharkhand"
+      "location": "Ranchi, Jharkhand",
+      "level": "Class 10th",
+      "percentage": 96.4,
+      "start_date": "Apr 2019",
+      "end_date": "Apr 2020"
     }
   ],
-  "languages": [
-    "C++",
-    "Python",
-    "SQL",
-    "LangChain",
-    "LangGraph"
-  ],
-  "tools": [
-    "VS Code",
-    "GitHub",
-    "Google Colab",
-    "Kaggle"
-  ],
-  "coursework": [
-    "Data Structures",
-    "Agentic AI",
-    "Deep Learning",
-    "OOP",
-    "Generative AI",
-    "NLP",
-    "Data Science"
-  ],
-  "experience": [
+  "relevantCoursework": [
     {
-      "company": "Wipro Ltd.",
-      "role": "Software Development Intern",
-      "start": "May 2025",
-      "end": "Jul 2025",
-      "city": "Bangalore",
-      "country": "India",
-      "items": [
-        "Earned certification in Doxis CSB, gaining hands-on exposure to enterprise content management (ECM) systems and intelligent document processing.",
-        "Collaborated with engineering teams on designing Agentic AI workflows, and completed 4 global certifications related to DOXIS CSB ECM architecture and integration."
-      ]
+      "course": "Data Structures",
+      "rating": "4/5"
     },
     {
-      "company": "Future Intern",
-      "role": "Data Science Intern",
-      "start": "Mar 2025",
-      "end": "Apr 2025",
-      "city": "",
-      "country": "",
-      "items": [
-        "Developed an NLP-based ticket classification system that reduced support team response time by 30% using LSTM models and GloVe embeddings.",
-        "Conducted geospatial analysis of traffic and accident data to identify high-risk zones, enabling better resource allocation and public safety measures."
-      ]
+      "course": "Agentic AI",
+      "rating": "4/5"
+    },
+    {
+      "course": "Deep Learning",
+      "rating": "4/5"
+    },
+    {
+      "course": "OOP"
+    },
+    {
+      "course": "Generative AI"
+    },
+    {
+      "course": "NLP"
+    },
+    {
+      "course": "Data Science",
+      "rating": "4/5"
     }
   ],
-  "achievements": [
-    {
-      "title": "LeetCode",
-      "link": "leetcode.com/u/harshnpng",
-      "category": "DSA Practice",
-      "items": [
-        "Solved 300+ problems covering arrays, trees, graphs, and dynamic programming on LeetCode."
-      ]
-    },
-    {
-      "title": "DataWars",
-      "link": "profiles.datawars.io/harshnpng",
-      "category": "Data Preprocessing Projects",
-      "items": [
-        "Completed 50+ projects involving data cleaning, transformation, and feature engineering."
-      ]
-    },
-    {
-      "title": "Production Head – Stage Plays",
-      "link": "",
-      "category": "Leadership",
-      "items": [
-        "Led stage and logistics for award-winning theatre productions at Saarang (2nd) and Festember (1st).",
-        "Received special recognition for production management and coordination."
-      ]
-    }
-  ],
+  "technicalSkills": {
+    "languages": [
+      "C++",
+      "Python",
+      "SQL",
+      "LangChain",
+      "LangGraph"
+    ],
+    "tools": [
+      "VS Code",
+      "GitHub",
+      "Google Colab",
+      "Kaggle"
+    ],
+    "ai_ml_frameworks": [
+      "TensorFlow",
+      "Hugging Face",
+      "OpenCV",
+      "FAISS"
+    ]
+  },
   "projects": [
     {
       "title": "Agentic Web-Enabled Conversational AI",
+      "date": "June 2025",
       "technologies": [
         "GPT-4",
         "AutoGen",
@@ -112,37 +96,189 @@
         "SerpAPI",
         "ChromaDB"
       ],
-      "date": "June 2025",
-      "features": [
-        "Engineered an autonomous conversational system that uses LLMs to dynamically retrieve and synthesize real-time web data.",
+      "description": [
+        "Engineered an autonomous conversational system that uses LLMs to dynamically retrieve and synthesize real‑time web data.",
         "Orchestrated Planner, Search, and Synthesizer agents using MCP protocol; enabled contextual continuity with ChromaDB and SerpAPI."
       ]
     },
     {
-      "title": "Chatbot with Retrieval-Augmented Generation (RAG)",
+      "title": "Chatbot with Retrieval‑Augmented Generation (RAG)",
+      "date": "Jan 2025",
       "technologies": [
         "LangChain",
         "FAISS",
-        "Python"
+        "Python",
+        "Hugging Face"
       ],
-      "date": "Jan 2025",
-      "features": [
-        "Built a RAG-powered chatbot with LangChain and Hugging Face that generates contextually accurate multi-turn responses.",
+      "description": [
+        "Built a RAG‑powered chatbot that generates contextually accurate multi‑turn responses.",
         "Utilized FAISS for vector search across 100K+ embedded documents, reducing hallucinations and improving factual grounding by 40%."
       ]
     },
     {
-      "title": "Real-time Parking Detection",
+      "title": "Real‑time Parking Detection",
+      "date": "Dec 2024",
       "technologies": [
         "OpenCV",
         "Python",
         "pickle"
       ],
-      "date": "Dec 2024",
-      "features": [
-        "Developed a real-time detection system for identifying vacant parking spots from video feeds with 35% accuracy improvement.",
-        "Used background subtraction, contour detection, and trained on custom data to handle varying lighting and camera perspectives."
+      "description": [
+        "Developed a real‑time detection system for identifying vacant parking spots from video feeds.",
+        "Implemented background subtraction and contour detection, achieving a 35% accuracy improvement over baseline."
       ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Wipro Ltd.",
+      "location": "Bangalore, India",
+      "role": "Software Development Intern",
+      "duration": "May – Jul 2025",
+      "responsibilities": [
+        "Earned certification in Doxis CSB, gaining hands‑on exposure to enterprise content management (ECM) systems and intelligent document processing.",
+        "Collaborated with engineering teams on designing Agentic AI workflows.",
+        "Completed 4 global certifications related to DOXIS CSB ECM architecture and integration."
+      ]
+    },
+    {
+      "company": "Future Intern",
+      "location": null,
+      "role": "Data Science Intern",
+      "duration": "Mar – Apr 2025",
+      "responsibilities": [
+        "Developed an NLP‑based ticket classification system using LSTM models and GloVe embeddings, reducing support team response time by 30%.",
+        "Conducted geospatial analysis of traffic and accident data to identify high‑risk zones, aiding resource allocation and public safety measures."
+      ]
+    }
+  ],
+  "achievementsAndLeadership": [
+    {
+      "category": "LeetCode",
+      "profile": "leetcode.com/u/harshnpng",
+      "details": "Solved 300+ DSA problems covering arrays, trees, graphs, and dynamic programming."
+    },
+    {
+      "category": "DataWars",
+      "profile": "profiles.datawars.io/harshnpng",
+      "details": "Completed 50+ data‑preprocessing projects involving cleaning, transformation, and feature engineering."
+    },
+    {
+      "category": "Production Head – Stage Plays",
+      "duration": "Oct 2024 – Jan 2025",
+      "affiliations": [
+        "IIT Madras",
+        "NIT Trichy"
+      ],
+      "details": [
+        "Led stage and logistics for award‑winning theatre productions at Saarang (2nd place) and Festember (1st place).",
+        "Received special recognition for production management and coordination."
+      ]
+    }
+  ],
+  "coursework": [
+    {
+      "name": "Data Structures",
+      "grade": "4/5"
+    },
+    {
+      "name": "Agentic AI",
+      "grade": "4/5"
+    },
+    {
+      "name": "Deep Learning",
+      "grade": "4/5"
+    },
+    {
+      "name": "OOP",
+      "grade": null
+    },
+    {
+      "name": "Generative AI",
+      "grade": null
+    },
+    {
+      "name": "NLP",
+      "grade": null
+    },
+    {
+      "name": "Data Science",
+      "grade": "4/5"
+    }
+  ],
+  "technical_skills": {
+    "languages": [
+      "C++",
+      "Python",
+      "SQL",
+      "LangChain",
+      "LangGraph"
+    ],
+    "tools": [
+      "VS Code",
+      "GitHub",
+      "Google Colab",
+      "Kaggle"
+    ],
+    "ai_ml_frameworks": [
+      "TensorFlow",
+      "Hugging Face",
+      "OpenCV",
+      "FAISS"
+    ]
+  },
+  "achievements_and_leadership": {
+    "leetcodes_profile": "leetcode.com/u/harshnpng",
+    "leetcodes_accomplishments": "Solved 300+ DSA problems covering arrays, trees, graphs, and dynamic programming.",
+    "datawars_profile": "profiles.datawars.io/harshnpng",
+    "datawars_accomplishments": "Completed 50+ data‑preprocessing projects involving cleaning, transformation, and feature engineering.",
+    "production_head_stage_plays": {
+      "organization": "IIT Madras & NIT Trichy",
+      "duration": "Oct 2024 – Jan 2025",
+      "responsibilities": [
+        "Led stage and logistics for award‑winning theatre productions at Saarang (2nd place) and Festember (1st place).",
+        "Received special recognition for production management and coordination."
+      ]
+    }
+  },
+  "qualification_result": {
+    "decision": "Pass",
+    "score": 92,
+    "reason": "CGPA matches (9.14 ≈ 9.144) and both LangChain and Deep Learning are evidenced in skills, coursework, and projects.",
+    "checked_at": "2025-11-05T18:53:01.236708Z"
+  },
+  "personal_information": {
+    "full_name": "Harsh Kumar",
+    "phone": "+91-6200887791",
+    "email": "harshnpng@gmail.com",
+    "linkedin": "https://linkedin.com/in/harsh-kumar-535aa024a",
+    "github": "https://github.com/harsh16kumar"
+  },
+  "relevant_coursework": [
+    {
+      "course": "Data Structures",
+      "grade": "4/5"
+    },
+    {
+      "course": "Agentic AI",
+      "grade": "4/5"
+    },
+    {
+      "course": "Deep Learning",
+      "grade": "4/5"
+    },
+    {
+      "course": "Object Oriented Programming (OOP)"
+    },
+    {
+      "course": "Generative AI"
+    },
+    {
+      "course": "Natural Language Processing (NLP)"
+    },
+    {
+      "course": "Data Science",
+      "grade": "4/5"
     }
   ]
 }

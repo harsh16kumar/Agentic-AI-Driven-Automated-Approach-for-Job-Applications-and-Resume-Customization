@@ -46,8 +46,7 @@ dist/
 build/
 *.egg-info/
 
-resume-agent/
-
-data/
+data/github_repos
+qachatbot/
 
 github_fetch_debug.py
