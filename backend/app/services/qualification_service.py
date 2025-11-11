@@ -11,7 +11,7 @@ import sys
 
 sys.path.append(r"C:\Users\Harsh\Downloads\Q_A_Chatbot_Using_Agentic_RAG_Architecture\q_a_chatbot\backend\app\services")
 
-from user_data_service import load_user_data, save_user_data
+from backend.app.services.user_data_service import load_user_data, save_user_data
 
 
 # -----------------------------------

@@ -1,0 +1,149 @@
+{
+  "name": "Anirudh",
+  "phone": "+91-8295250473",
+  "email": "anirudh7371@gmail.com",
+  "linkedin": "linkedin.com/in/anirudh2511",
+  "github": "github.com/anirudh7371",
+  "education": [
+    {
+      "institution": "Vellore Institute of Technology (VIT)",
+      "period": "Sept 2022 – May 2026 (Expected)",
+      "degree": "B.Tech. in Computer Science and Engineering",
+      "cgpa": "8.73/10.0",
+      "location": "Vellore, India"
+    }
+  ],
+  "languages": [
+    "Python",
+    "C++",
+    "SQL",
+    "JavaScript",
+    "HTML/CSS"
+  ],
+  "tools": [
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "AWS (EC2, S3)",
+    "Azure",
+    "Google Cloud (Cloud Run)",
+    "Firebase",
+    "PostgreSQL",
+    "MongoDB",
+    "MySQL"
+  ],
+  "coursework": [
+    "Data Structures",
+    "Algorithms",
+    "AI & Machine Learning",
+    "Database Systems",
+    "Operating Systems",
+    "Computer Networks"
+  ],
+  "experience": [
+    {
+      "company": "CodeBiceps",
+      "role": "AI Engineer Intern",
+      "start": "May 2025",
+      "end": "July 2025",
+      "city": "Remote",
+      "country": "",
+      "items": [
+        "Developed scalable Python backend services and resolved 30+ issues via root‑cause analysis, improving system reliability across 5+ platforms.",
+        "Built and maintained RESTful APIs using Flask, deployed on Azure; optimized backend load efficiency by 25%."
+      ]
+    },
+    {
+      "company": "KuppiSmart Solutions Pvt. Ltd.",
+      "role": "Machine Learning & AI Developer Intern",
+      "start": "May 2024",
+      "end": "June 2024",
+      "city": "Remote",
+      "country": "",
+      "items": [
+        "Designed deep learning models for livestock assessment using TensorFlow and OpenCV, increasing classification accuracy by 25%.",
+        "Automated data pipelines using Python and Pandas, reducing manual data handling by 40%."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Winner (1st Place) among 500+ participants – AI-ML Marvels Hackathon (graVITas’23, VIT)",
+      "link": "",
+      "category": "Hackathon",
+      "items": []
+    },
+    {
+      "title": "Runner-up – DevJams Hackathon by Google Developer Student Club",
+      "link": "",
+      "category": "Hackathon",
+      "items": []
+    },
+    {
+      "title": "Top 10 Finalist – Code-a-thon by Caterpillar Inc.",
+      "link": "",
+      "category": "Hackathon",
+      "items": []
+    },
+    {
+      "title": "Top 100 Teams – Amazon ML Challenge 2025",
+      "link": "",
+      "category": "Competition",
+      "items": []
+    },
+    {
+      "title": "Top 1%ile – Naukri Young Turks Competition (5L+ participants)",
+      "link": "",
+      "category": "Competition",
+      "items": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Interviewer – Software-Based Interview Assistant",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "RAG",
+        "LLM",
+        "Docker",
+        "Google Cloud Run",
+        "PostgreSQL (CloudSQL)"
+      ],
+      "date": "Sept 2025",
+      "features": [
+        "Developed a Python (LangChain, RAG, LLM) based system that processes Excel inputs to auto‑generate interview questions, reducing HR workload by 60%.",
+        "Deployed containerized backend with Docker on Google Cloud Run, using PostgreSQL (CloudSQL) for 99.9% uptime."
+      ]
+    },
+    {
+      "title": "FinWise – AI Personal Finance Assistant",
+      "technologies": [
+        "Next.js",
+        "Python",
+        "PostgreSQL",
+        "OCR",
+        "LangChain",
+        "Gemini API"
+      ],
+      "date": "June 2025",
+      "features": [
+        "Architected a full‑stack app using Next.js, Python, and PostgreSQL with OCR‑based expense tracking for 500+ users.",
+        "Integrated LangChain and Gemini API to provide AI‑driven financial insights, boosting engagement by 85%."
+      ]
+    },
+    {
+      "title": "Legal Document Demystifier",
+      "technologies": [
+        "FastAPI",
+        "AI models",
+        "Firebase Auth",
+        "Firestore"
+      ],
+      "date": "April 2025",
+      "features": [
+        "Built a secure FastAPI backend serving AI models with 92% accuracy on 500+ legal samples; integrated Firebase Auth and Firestore."
+      ]
+    }
+  ]
+}
