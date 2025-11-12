@@ -1,9 +1,9 @@
 {
-  "name": "HARSH KUMAR",
+  "name": "Harsh Kumar",
   "phone": "+91-6200887791",
   "email": "harshnpng@gmail.com",
   "linkedin": "linkedin.com/in/harsh-kumar-535aa024a",
-  "github": "harsh16kumar",
+  "github": "github.com/harsh16kumar",
   "education": [
     {
       "institution": "Vellore Institute of Technology",
@@ -38,7 +38,11 @@
     "VS Code",
     "GitHub",
     "Google Colab",
-    "Kaggle"
+    "Kaggle",
+    "TensorFlow",
+    "Hugging Face",
+    "OpenCV",
+    "FAISS"
   ],
   "coursework": [
     "Data Structures",
@@ -58,7 +62,7 @@
       "city": "Bangalore",
       "country": "India",
       "items": [
-        "Earned certification in Doxis CSB, gaining hands-on exposure to enterprise content management (ECM) systems and intelligent document processing.",
+        "Earned certification in Doxis CSB, gaining hands‑on exposure to enterprise content management (ECM) systems and intelligent document processing.",
         "Collaborated with engineering teams on designing Agentic AI workflows, and completed 4 global certifications related to DOXIS CSB ECM architecture and integration."
       ]
     },
@@ -70,14 +74,14 @@
       "city": "",
       "country": "",
       "items": [
-        "Developed an NLP-based ticket classification system that reduced support team response time by 30% using LSTM models and GloVe embeddings.",
-        "Conducted geospatial analysis of traffic and accident data to identify high-risk zones, enabling better resource allocation and public safety measures."
+        "Developed an NLP‑based ticket classification system that reduced support team response time by 30% using LSTM models and GloVe embeddings.",
+        "Conducted geospatial analysis of traffic and accident data to identify high‑risk zones, enabling better resource allocation and public safety measures."
       ]
     }
   ],
   "achievements": [
     {
-      "title": "LeetCode",
+      "title": "LeetCode DSA Practice",
       "link": "leetcode.com/u/harshnpng",
       "category": "DSA Practice",
       "items": [
@@ -85,7 +89,7 @@
       ]
     },
     {
-      "title": "DataWars",
+      "title": "DataWars Data Preprocessing Projects",
       "link": "profiles.datawars.io/harshnpng",
       "category": "Data Preprocessing Projects",
       "items": [
@@ -97,14 +101,40 @@
       "link": "",
       "category": "Leadership",
       "items": [
-        "Led stage and logistics for award-winning theatre productions at Saarang (2nd) and Festember (1st).",
+        "Led stage and logistics for award‑winning theatre productions at IIT Madras & NIT Trichy (Saarang 2nd, Festember 1st).",
         "Received special recognition for production management and coordination."
       ]
     }
   ],
   "projects": [
     {
-      "title": "Agentic Web-Enabled Conversational AI",
+      "title": "Agentic Job Application using AI",
+      "technologies": [],
+      "date": "11/2025",
+      "features": [
+        "Engineered an AI‑driven agent that automates job‑application workflows, integrating NLP and API orchestration to personalize resumes and cover letters for 200+ job postings daily.",
+        "Designed and deployed a scalable microservice architecture in Python/Flask, leveraging transformer models (e.g., BERT) for resume parsing and job‑description matching, reducing manual effort by 75%.",
+        "Conducted rigorous A/B testing and performance analytics to optimize candidate success rates, achieving a 30% increase in interview invitations within the first month of deployment."
+      ]
+    },
+    {
+      "title": "Agentic Chatbot using LangGraph",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "Streamlit",
+        "FAISS"
+      ],
+      "date": "04/2025",
+      "features": [
+        "Designed and deployed an agentic chatbot using LangGraph and LangChain, integrating real‑time web scraping to provide contextually relevant LLM responses in a dynamic UI.",
+        "Built a modular, node‑based workflow with reusable tools and state management, boosting feature‑extraction efficiency by 50% and ensuring seamless extensibility of the chatbot service layer.",
+        "Streamlined inference pipelines and launched a Streamlit interface, reducing response latency by 30% and enhancing beta‑test user satisfaction."
+      ]
+    },
+    {
+      "title": "Agentic Web‑Enabled Conversational AI",
       "technologies": [
         "GPT-4",
         "AutoGen",
@@ -112,37 +142,12 @@
         "SerpAPI",
         "ChromaDB"
       ],
-      "date": "June 2025",
+      "date": "01/2020",
       "features": [
-        "Engineered an autonomous conversational system that uses LLMs to dynamically retrieve and synthesize real-time web data.",
+        "Engineered an autonomous conversational system that uses LLMs to dynamically retrieve and synthesize real‑time web data.",
         "Orchestrated Planner, Search, and Synthesizer agents using MCP protocol; enabled contextual continuity with ChromaDB and SerpAPI."
-      ]
-    },
-    {
-      "title": "Chatbot with Retrieval-Augmented Generation (RAG)",
-      "technologies": [
-        "LangChain",
-        "FAISS",
-        "Python"
       ],
-      "date": "Jan 2025",
-      "features": [
-        "Built a RAG-powered chatbot with LangChain and Hugging Face that generates contextually accurate multi-turn responses.",
-        "Utilized FAISS for vector search across 100K+ embedded documents, reducing hallucinations and improving factual grounding by 40%."
-      ]
-    },
-    {
-      "title": "Real-time Parking Detection",
-      "technologies": [
-        "OpenCV",
-        "Python",
-        "pickle"
-      ],
-      "date": "Dec 2024",
-      "features": [
-        "Developed a real-time detection system for identifying vacant parking spots from video feeds with 35% accuracy improvement.",
-        "Used background subtraction, contour detection, and trained on custom data to handle varying lighting and camera perspectives."
-      ]
+      "selected": true
     }
   ]
 }
